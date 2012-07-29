@@ -1,0 +1,23 @@
+alias ls="ls -G"
+alias la="ls -Ga"
+alias ll="ls -Gl"
+alias lla="ls -Gla"
+
+alias gist="git status"
+alias ga="git add"
+alias gc="git commit"
+alias gca="git commit -a"
+alias gp="git push"
+alias gd="git diff"
+alias gdc="git diff --cached"
+
+alias b="bundle"
+alias bi="bundle install"
+alias bu="bundle update"
+alias be="bundle exec"
+alias br="bundle exec rake"
+
+alias e="mate"
+
+alias rc="rails console"
+alias rs="rails server"
