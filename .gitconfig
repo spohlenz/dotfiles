@@ -5,8 +5,9 @@
 	email = sam@sampohlenz.com
 [alias]
 	co = checkout
-
 # Use `origin` as the default remote on the `master` branch in all cases
 [branch "master"]
 	remote = origin
 	merge = refs/heads/master
+[core]
+	excludesfile = /Users/sam/.gitignore
