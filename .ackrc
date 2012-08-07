@@ -1,0 +1,4 @@
+--type-add=ruby=.haml
+--type-add=scss=.scss
+--type-add=sass=.sass
+--type-add=coffeescript=.coffee
