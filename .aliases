@@ -8,6 +8,7 @@ alias ga="git add"
 alias gc="git commit"
 alias gca="git commit -a"
 alias gp="git push"
+alias gl="git lg"
 alias gd="git diff"
 alias gdc="git diff --cached"
 
