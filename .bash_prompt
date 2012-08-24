@@ -17,3 +17,6 @@ function prompt_func {
 }
 
 PROMPT_COMMAND=prompt_func
+
+# Add support for new terminal windows with same working directory
+PROMPT_COMMAND="update_terminal_cwd; $PROMPT_COMMAND"
