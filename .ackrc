@@ -1,4 +1,8 @@
+--ignore-dir=cache
+--ignore-dir=tmp
 --type-add=ruby=.haml
---type-add=scss=.scss
---type-add=sass=.sass
---type-add=coffeescript=.coffee
+--type-add=ruby=.gemspec
+--type-add=css=.scss
+--type-add=css=.sass
+--type-add=js=.coffee
+

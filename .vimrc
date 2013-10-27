@@ -25,5 +25,3 @@ set showcmd
 set showmode
 
 set encoding=utf-8
-set wrap
-set textwidth=79
