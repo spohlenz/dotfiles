@@ -1,1 +1,1 @@
---skip-test-unit --skip-javascript
+--skip-test --skip-spring
