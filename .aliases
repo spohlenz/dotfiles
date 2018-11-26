@@ -18,7 +18,7 @@ alias bu="bundle update"
 alias be="bundle exec"
 alias br="bundle exec rake"
 
-alias e="mate"
+alias e="code"
 
 alias rc="rails console"
 alias rs="rails server"
