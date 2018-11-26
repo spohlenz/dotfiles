@@ -11,3 +11,5 @@
 	editor = mate -w
 [push]
 	default = upstream
+[credential]
+	helper = osxkeychain
