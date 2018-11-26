@@ -5,7 +5,7 @@ RESET="\[\e[0m\]"
 UNCLEAN="\\[`tput sc`\\] \\[`tput rc`\\]\\[⚡️\\]"
 
 function parse_git_dirty {
-  [[ ! $(git status 2> /dev/null) =~ "working directory clean" ]] && echo $UNCLEAN
+  [[ ! $(git status 2> /dev/null) =~ "working tree clean" ]] && echo $UNCLEAN
 }
 
 function parse_git_branch {
