@@ -2,7 +2,7 @@ GREEN="\[\e[0;32m\]"
 RED="\[\e[0;31m\]"
 YELLOW="\[\e[1;33m\]"
 RESET="\[\e[0m\]"
-UNCLEAN="\\[`tput sc`\\] \\[`tput rc`\\]\\[⚡︎\\]"
+UNCLEAN="\\[`tput sc`\\] \\[`tput rc`\\]\\[⚡️\\]"
 
 function parse_git_dirty {
   [[ ! $(git status 2> /dev/null) =~ "working directory clean" ]] && echo $UNCLEAN
