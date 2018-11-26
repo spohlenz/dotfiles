@@ -20,5 +20,5 @@ alias br="bundle exec rake"
 
 alias e="code"
 
-alias rc="rails console"
-alias rs="rails server"
+alias rc="bundle exec rails console"
+alias rs="bundle exec rails server"
